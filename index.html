@@ -16,21 +16,43 @@
                 
             </div>
 <!-- TODO start -->
-            <div class="mt-5 mx-5 ">
-                <div class="">
-                    <input type="text" placeholder="Enter Todo" class="bg-gray-400">
-                    <button class="">
+            <div class="mt-5 ">
+                <div class="border-b-2 border-gray-300 pb-4 flex justify-center items-center gap-3">
+                    <input 
+                    type="text" 
+                    placeholder="Enter Todo" 
+                    class="focus:outline-none focus:shadow-lg px-4 py-2 border rounded-lg capitalize bg-gray-100">
+                    
+                    <button 
+                    class="px-4 py-2 bg-slate-300 rounded-lg hover:bg-slate-400 duration-400">
                         ADD TODO
                     </button>
                 </div>
-                
-
+            </div>
+<!-- Example Template -->
+            <div class="body mx-5 mt-4">
+                <ul class="flex flex -col justify-center items-center owerflow-hidden">
+                    <li class="border flex justify-between items-center w-full px-[1rem] min-h-[3rem] rounded-lg shadow-lg">
+                        Enter Todos
+                        <p class="hover:scale-125 cursor-pointer">
+                        <i id="a" class="flex fa-sharp fa-solid fa-trash p-2"></i>
+                        </p>
+                    </li>
             </div>
 
         </div>
+
+
+
     </div>
 
 
+
+
+    <script
+    src="https://kit.fontawesome.com/5e98021036.js"
+    crossorigin="anonymous"
+    ></script>
 
 
 
