@@ -1,156 +1,70 @@
-# TAILWID ToDo
+# TAILWIND-ToDo – Tailwind CSS To-Do Application
 
+> A lightweight and responsive To-Do list application built with HTML, Tailwind CSS, and JavaScript, hosted on GitHub Pages.
 
-## Description
-Project aims to create SASS_Project within html and css.
+🌐 **Live Demo:** [fuatsevinc.github.io/TAILWIND-ToDo](https://fuatsevinc.github.io/TAILWIND-ToDo/)
 
-  Project Name       |Libraries and Technologies I use     |How does my project look   
-:-------------------------|-------------------------|-------------------------
-[SASS_Project](https://fuatsevinc.github.io/TAILWIND-ToDo/)| Html Css Sass |![SASS_Project](img/sass.gif)
+---
 
+## About the Project
 
-## Problem Statement
-- My project to improve html,css and Sass tutorials
+TAILWIND-ToDo is a static web To-Do application built with HTML5, Tailwind CSS, and vanilla JavaScript. Users can add, complete, and manage their daily tasks. The project was developed to practice Tailwind CSS utility classes and JavaScript DOM manipulation.
 
-## Project Design
+---
 
-- Figma 
+## Features
 
-## Project Skeleton 
+- Add and manage to-do tasks
+- Mark tasks as completed
+- Remove tasks from the list
+- Clean and responsive UI with Tailwind CSS
+- Pure JavaScript with no external dependencies
+- Hosted on GitHub Pages
 
+---
 
-TAILWID ToDo (folder)
+## Technologies Used
 
+| Technology | Description |
+|---|---|
+| HTML5 | Page structure |
+| Tailwind CSS | Utility-first CSS framework |
+| JavaScript | Task management logic |
+| GitHub Pages | Static site hosting |
 
-|----img
+---
 
-|----readme.md      
+## Project Structure
 
-|----index.html  
+```
+TAILWIND-ToDo/
+├── index.html    # Main HTML file
+├── index.js      # JavaScript logic for ToDo functionality
+└── README.md
+```
 
-|----about.html
+---
 
-|----contact.html
+## Getting Started
 
-|----projects.html 
+Since this is a static project, no installation is required:
 
-|----css
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/fuatsevinc/TAILWIND-ToDo
+   cd TAILWIND-ToDo
+   ```
 
-	|---main.css
-	|---main.css.map
-	
-	
-	
-|----scss
+2. **Open in browser**
+   - Simply open `index.html` in your preferred browser
+   - Or visit the live demo: [fuatsevinc.github.io/TAILWIND-ToDo](https://fuatsevinc.github.io/TAILWIND-ToDo/)
 
-	|---main.scss
-	|---abstracts
-	
-		|--_mixins.scss
-		|--_variables.scss
-		
-	|---base
-		|--_reset.scss
-		
-		
-	|---components
-		|--_footer.scss
-		|--_nav.scss
-		|--_responsive.scss
-		
-	|---pages
-       		|--_about.scss
-		|--_contacts.scss
-		|--_home.scss
-		|--_projects.scss
-#```
+---
 
-## Expected Outcome
+## License
 
-## Objective
+This project is open source and available under the [MIT License](LICENSE).
 
-Functionally create a SASS_Project as in the image above
+---
 
-### At the end of the project, following topics are to be covered;
-
-- HTML structure
-
-- HTML İnput
-
-- CSS Colors-Border Properties
-
-- CSS Margins-Padding-Grid-Flex
-
-- CSS Properties for Texts-Font Sans-serif
-	
-- SCSS Partials method
-
-- SCSS @import method
-
-- SCSS @mixin method
-
-- SCSS @exend method
-
-- SCSS @include method
-
-- SCSS Variable method
-
-
-### At the end of the project, students will be able to;
-
-- improve coding skills within HTML & CSS
-
-- use git commands (push, pull, commit, add etc.) and Github as Version Control System.
-
-## Steps to Solution
-  
-- Step 1: Download or clone project repo on Github 
-
-- Step 2: Create project folder for local public repo on your pc
-
-- Step 3: Create SASS_Project
-
->>Part-1 HTML Structure
-
-	- Creat structure of the HTML5
-	- Give name of your project (title)
-	- Create the main structure of the container (div id="container")
-	- Create Main Topic of the project (id="title")
-	- Create a description of your project (id="description")
-	- Create a Scss (id="SASS_Project")
-	
-
->>Part-2 CSS Structure
-	- CSS Display method
-	- CSS justify-content
-	- CSS Position method
-	- CSS Media Query method
-	- Set a background and define font-color="white"
-	- Set container background color and margin
-	- Define "title" and "description" color-size-padding etc...
-	- Define "SASS_Project" color-size-padding etc..
-	- Define labels color-size-padding etc... 
-	- Set class color-size-padding-margin etc...
-	- Define id="submit" color-size-padding etc...
->>Part-3 Scss Structue
-	- SCSS Partials method
-	- SCSS @import method
-	- SCSS @mixin method
-	- SCSS @exend method
-	- SCSS @include method
-	- SCSS Variable method
-
-- Step 4: Push your application into your own public repo on Github
-
-- Step 5: Deploy your application on Github template to showcase your app within your team.
-
-## Notes
-
-- You can use HTML, CSS and Sass to complete this project.
-
-## Resources
-
-
-
-<center> &#8987; Happy Coding  &#9997; </center>
-
+Developed by [fuatsevinc](https://github.com/fuatsevinc)
